@@ -1,14 +1,15 @@
 modLoader="javafml"
 loaderVersion="[2,)"
-license="Not specified"
+license="GNU General Public License version 3 (GPLv3)"
 
 [[mods]]
 modId="booster_shop"
-version="1.0.0"
+version="1.0.0.1"
 displayName="Booster Shop"
 displayURL="https://mcreator.net"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
-authors="Alexey, MCreator"
+credits="Created by Environment Studios"
+authors="Environment Studios"
+description="Booster Shop is a mod that adds improvements to the stones from the Keepers of the Stones II mod. The purpose of the mod is to be able to pump up the stones."
 
 # Start of user code block mod configuration
 # End of user code block mod configuration
@@ -28,6 +29,18 @@ authors="Alexey, MCreator"
     side="BOTH"
 
 
+[[dependencies.booster_shop]]
+    modId="curios_api"
+    type="optional"
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.booster_shop]]
+    modId="cpapi"
+    type="optional"
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
 
 
 # Start of user code block dependencies configuration
